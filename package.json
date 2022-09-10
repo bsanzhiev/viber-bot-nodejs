@@ -1,0 +1,29 @@
+{
+  "name": "viber-bot-nodejs",
+  "version": "1.0.0",
+  "description": "Viber bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsanzhiev/viber-bot-nodejs.git"
+  },
+  "author": "Baatar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsanzhiev/viber-bot-nodejs/issues"
+  },
+  "homepage": "https://github.com/bsanzhiev/viber-bot-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "viber-bot": "^1.0.18",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
