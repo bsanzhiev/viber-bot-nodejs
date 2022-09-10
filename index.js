@@ -21,7 +21,7 @@ if (!config.expose_domain) {
 
 const bot = new ViberBot({
   authToken: config.token,
-  name: "Viberbot Kurumkan",
+  name: config.name,
   avatar: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Katze_weiss.png",
 });
 bot.on(BotEvents.SUBSCRIBED, (response) => {
